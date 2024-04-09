@@ -1,0 +1,36 @@
+# 忽略生成的文件
+bin/
+obj/
+
+# 忽略 .vs 文件夹（Visual Studio 特定文件夹）
+.vs/
+
+# 忽略 NuGet 依赖项文件夹
+packages/
+
+# 忽略 Visual Studio 编译缓存文件
+*.user
+*.suo
+*.cache
+*.pdb
+
+# 忽略 ReSharper 缓存文件
+_ReSharper*/
+
+# 忽略类库的文档生成文件
+docs/
+
+# 忽略测试结果文件
+TestResults/
+[Tt]est[Rr]esult*/
+
+# 忽略 Web 编译生成的文件
+obj/
+PublishProfiles/
+node_modules/
+npm-debug.log
+
+# 忽略缓存文件
+*.log
+*.bak
+*.vscode/
